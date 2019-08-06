@@ -60,13 +60,8 @@ def run(array)
   #until input == exit
     #if input != list, exit, help, play; please enter a command, input = gets.strip
     #end
-    
+
     #if input == list, list(array)
     #elsif  input == help, help
     #elsif  input == play, play(array)
     #end
-
-
-
-  
-
