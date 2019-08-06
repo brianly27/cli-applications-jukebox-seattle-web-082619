@@ -55,7 +55,7 @@ def get_user_input
 end
 
 def run(array)
-  
+
   prompt
   input = get_user_input
   #write a loop that allows me to call any of the four functions and also exit the loop
