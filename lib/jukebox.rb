@@ -34,7 +34,7 @@ def play(array)
 
 
   if input.to_i.between?(1,array.length)
-    puts "#{array[input.to_i-1]}"
+    puts "Playing #{array[input.to_i-1]}"
   elsif array.find {|i| i == input}
     puts "#{input}"
   else
