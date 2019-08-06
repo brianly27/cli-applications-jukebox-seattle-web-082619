@@ -56,7 +56,7 @@ end
 
 def run(array)
   help
-  prompt 
+  prompt
   input = get_user_input
   #write a loop that allows me to call any of the four functions and also exit the loop
 
@@ -65,13 +65,12 @@ def run(array)
       prompt
       get_user_input
     end #until
-  
-    list(array) if input == "list" 
-    
+
+    list(array) if input == "list"
+
     help if input == "help"
-      
+
     play(array) if input == "play"
-      
+
   end #until
 end
-    
