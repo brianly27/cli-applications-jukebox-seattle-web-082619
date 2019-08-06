@@ -80,3 +80,4 @@ binding.pry
   end #if
   binding.pry
 end
+run(array)
