@@ -75,5 +75,5 @@ def run(array)
   end #until
   if input == "exit"
     exit_jukebox
-  end #if 
+  end #if
 end
