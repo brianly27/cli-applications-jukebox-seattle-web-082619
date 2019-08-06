@@ -67,12 +67,12 @@ def run(array)
     end #until
 
     if input == "list"
-      list(array) 
+      list(array)
     elsif input == "help"
-      help 
+      help
     elsif input == "play"
       play(array)
-    end 
+    end
   end #until
   if input == "exit"
     exit_jukebox
