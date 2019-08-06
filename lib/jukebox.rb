@@ -60,7 +60,7 @@ def run(array)
   input = get_user_input
   #write a loop that allows me to call any of the four functions and also exit the loop
 
-  until user_input == "exit"
+  until input == "exit"
     until ["list", "exit", "help", "play"].include?(input)
       prompt
       get_user_input
