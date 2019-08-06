@@ -79,4 +79,4 @@ def run(array)
     exit_jukebox
   end #if
 end
-run(array)
+
