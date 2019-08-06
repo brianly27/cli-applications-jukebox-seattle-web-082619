@@ -72,7 +72,7 @@ def run(array)
       help
     elsif input == "play"
       play(array)
-    end
+    end #if
   end #until
   if input == "exit"
     exit_jukebox
