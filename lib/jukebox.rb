@@ -66,12 +66,13 @@ def run(array)
       get_user_input
     end #until
 
-    list(array) if input == "list"
-
-    help if input == "help"
-
-    play(array) if input == "play"
-
+    if input == "list"
+      list(array) 
+    elsif input == "help"
+      help 
+    elsif input == "play"
+      play(array)
+    end 
   end #until
   if input == "exit"
     exit_jukebox
