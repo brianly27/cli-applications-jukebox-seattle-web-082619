@@ -48,20 +48,30 @@ end
 
 def prompt
   puts "Please enter a command:"
-  input = gets.strip
+end
+
+def get_user_input
+  gets.strip
 end
 
 def run(array)
   help
-  puts "Please enter a command:"
-  input = gets.strip
+  prompt 
+  input = get_user_input
   #write a loop that allows me to call any of the four functions and also exit the loop
 
-  #until input == exit
-    #if input != list, exit, help, play; please enter a command, input = gets.strip
-    #end
-
-    #if input == list, list(array)
-    #elsif  input == help, help
-    #elsif  input == play, play(array)
-    #end
+  until user_input == "exit"
+    until ["list", "exit", "help", "play"].include?(input)
+      prompt
+      get_user_input
+    end #until
+  
+    list(array) if input == "list" 
+    
+    help if input == "help"
+      
+    play(array) if input == "play"
+      
+  end #until
+end
+    
