@@ -17,3 +17,7 @@ songs = [
 
 
 run(songs)
+ # the bin/jukebox file requires the relative ../lib/jukebox
+ #also requires the list of songs so that the run method can be passed the list of songs.
+ #although i think that the list of songs from lib/jukebox.rb might be accessible in the bin file.
+ 
