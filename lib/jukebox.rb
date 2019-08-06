@@ -74,6 +74,7 @@ def run(array)
       play(array)
     end #if
   end #until
+  binding.pry
   if input == "exit"
     exit_jukebox
   end #if
