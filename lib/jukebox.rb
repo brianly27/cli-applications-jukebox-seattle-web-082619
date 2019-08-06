@@ -45,3 +45,28 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+def prompt
+  puts "Please enter a command:"
+  input = gets.strip
+end
+
+def run(array)
+  help
+  puts "Please enter a command:"
+  input = gets.strip
+  #write a loop that allows me to call any of the four functions and also exit the loop
+
+  #until input == exit
+    #if input != list, exit, help, play; please enter a command, input = gets.strip
+    #end
+    
+    #if input == list, list(array)
+    #elsif  input == help, help
+    #elsif  input == play, play(array)
+    #end
+
+
+
+  
+
