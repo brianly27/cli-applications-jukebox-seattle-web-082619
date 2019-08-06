@@ -61,9 +61,8 @@ def run(array)
   #write a loop that allows me to call any of the four functions and also exit the loop
 
   until input == "exit"
-    until ["list", "exit", "help", "play"].include?(input)
+    if !["list", "exit", "help", "play"].include?(input)
       prompt
-      get_user_input
     end #until
 
     if input == "list"
@@ -73,6 +72,7 @@ def run(array)
     elsif input == "play"
       play(array)
     end #if
+    input = get_user_input
   end #until
 
   if input == "exit"
